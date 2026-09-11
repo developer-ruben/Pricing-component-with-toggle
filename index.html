@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <meta
+      name="description"
+      content="Interactive pricing component featuring monthly and annual billing options. Compare plans, pricing tiers, and subscription features in a responsive and accessible design."
+    />
+
+    <meta
+      name="keywords"
+      content="pricing component, pricing table, subscription plans, monthly billing, annual billing, frontend mentor, responsive web design, pricing cards, pricing toggle, HTML CSS JavaScript"
+    />
+
+    <meta name="author" content="Ruben de Man" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Pricing component with toggle</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title">Our Pricing</h1>
+        <div class="pricing-toggle">
+          <label class="pricing-toggle__label" for="pricing-toggler"
+            >Annually</label
+          >
+
+          <input
+            class="pricing-toggle__input"
+            type="checkbox"
+            name="pricing-toggler"
+            id="pricing-toggler"
+            checked
+          />
+
+          <label class="pricing-toggle__label" for="pricing-toggler"
+            >Monthly</label
+          >
+        </div>
+      </header>
+      <main>
+        <section class="plans-section" id="plan-list"></section>
+      </main>
+    </div>
+
+    <footer class="attribution">
+      <p class="attribution__text">
+        Challenge by
+        <a
+          class="attribution__link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="attribution__link"
+          href="https://rubendeman.nl"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Ruben de Man</a
+        >.
+      </p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
